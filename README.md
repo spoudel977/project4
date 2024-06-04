@@ -66,3 +66,37 @@ Phase 5: Model Deployment
 Task 5.1: Develop a web service or API for real-time credit risk prediction.
 Task 5.2: Deploy the model using a suitable platform (e.g., Flask, FastAPI, AWS, etc.).
 Task 5.3: Test the deployed model and ensure it provides accurate predictions.
+
+
+Project Timeline : 2 Weeks
+
+Teams:
+Anthony Inthavong, Data Engineer
+David Quispe, Instructor (Shall we add position as data scientist)
+Lakshmi Sreekumar, Project Member
+Mahesh Peiris, Assistant Instructor (What will be actual position title)
+Pawanpreet Dhillon, Project Member
+Santosh Poudel, Project Member
+Smriti Limbu, Project Member
+
+
+Risks and Mitigation:
+
+Data Quality: Ensure thorough data cleaning and preprocessing.
+Model Performance: Regularly evaluate and optimize the model.
+Deployment Issues: Conduct extensive testing before deployment.
+
+
+Approval
+This project proposal is submitted to review and approval. Please provide feedback or approval to proceed with the the project.
+
+
+
+
+
+
+
+
+
+
+

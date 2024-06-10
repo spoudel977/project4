@@ -12,16 +12,21 @@
       Dataset: https://www.kaggle.com/datasets/parisrohan/credit-score-classification
    
    
-   4. Data cleaning 
+   4. Data cleaning
+     
     - Dropped unnecessary columns
+      
     - Checked for missing values: df = df.insull().sum()
+    
     - Dropped Missing Values: df.dropna()
+    
     - Converted Dataypes into int, float, obj
+    
     - Converted Categorical Data into labelled number: Good (0), Poor (1), and Standard (2)
 
     
     
-   5. Training and Evaluating Models 
+   6. Training and Evaluating Models 
    
    
 

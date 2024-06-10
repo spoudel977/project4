@@ -3,15 +3,16 @@
 ![360_F_258871009_f5net6t178mMF1nekdg2AS2vuOUhpDjL](https://github.com/spoudel977/project4/assets/105176210/a2e7f5cc-ee19-417c-8d97-a09e9b321da0)
 
 # Overview of the Project 
-   1. Purpose 
+   1. Purpose
+      
       Our goal with this dataset is to create a machine learning model which helps to indicate which applicants would be eligible for a loan according to their credit score. The credit score will based on the different data that has been provided for each applicant. Our model will determine the applicant's credit worthiness for a loan based on applicant's financial overview (monthly income, previous loans and outstanding payments, age, occupation, etc.).
    
-   2. Datasets used 
+   3. Datasets used 
         
       Dataset: https://www.kaggle.com/datasets/parisrohan/credit-score-classification
    
    
-   3. Data cleaning 
+   4. Data cleaning 
     - Dropped unnecessary columns
     - Checked for missing values: df = df.insull().sum()
     - Dropped Missing Values: df.dropna()
@@ -20,7 +21,7 @@
 
     
     
-   4. Training and Evaluating Models 
+   5. Training and Evaluating Models 
    
    
 

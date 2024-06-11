@@ -3,13 +3,15 @@
 ![360_F_258871009_f5net6t178mMF1nekdg2AS2vuOUhpDjL](https://github.com/spoudel977/project4/assets/105176210/a2e7f5cc-ee19-417c-8d97-a09e9b321da0)
 
 # Overview of the Project 
-   1. Purpose
-      The goal of the project 
-      
-      Our goal with this dataset is to create a machine learning model which helps to indicate which applicants would be eligible for a loan according to their credit score. The credit score will based on the different data that has been provided for each applicant. Our model will determine the applicant's credit worthiness for a loan based on applicant's financial overview (monthly income, previous loans and outstanding payments, age, occupation, etc.).
-   
-   2.  Datasets used
+1.Purpose   
 
+The goal of the project is to create a machine learning model which helps to indicate which applicants would be eligible for a loan according to their credit score. The credit score is tested against 13 features that has been provided for each applicant. Our model will determine the applicant's credit worthiness for a loan based on the applicant's financial overview ( features): Age, Annual_Income, Monthly_Inhand_Salary, Num_Bank_Accounts, Num_Credit_Card, Interest_Rate, Num_of_Loan, Delay_from_due_date, Num_of_Delayed_Payment, Changed_Credit_Limit, Credit_Mix,.. The project is implemented in a Jupyter Notebook, using the Python programming language and several popular machine learning libraries such as NumPy, Pandas, Matplotlib, Seaborn, sklearn.preprocessing, sklearn.tree and sklearn.ensemble. 
+
+2.Datasets used
+
+
+The data used in this project is a simulated dataset of individuals and their credit scores, which I use to train and evaluate several different machine learning models.
+exploratory data analysis to gain insights into the data and understand the relationships between the various features and the credit score. I then use this understanding to preprocess the data and prepare it for modeling.
 
     [Dataset: Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classificationD)
 

@@ -4,15 +4,40 @@
 
 # Overview of the Project 
    1. Purpose
+      The goal of the project 
       
       Our goal with this dataset is to create a machine learning model which helps to indicate which applicants would be eligible for a loan according to their credit score. The credit score will based on the different data that has been provided for each applicant. Our model will determine the applicant's credit worthiness for a loan based on applicant's financial overview (monthly income, previous loans and outstanding payments, age, occupation, etc.).
    
-   3. Datasets used 
+   2.  Datasets used
+
+
+    [Dataset: Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classificationD)
+
+      - train.csv
+
+      
+
+   3. Libraries Used 
+
+      - pandas
+      
+      - numpy
+      
+      - seaborn
+      
+      - matplotlib.pyplot
+      
+      - sklearn.preprocessing
+      
+      - sklearn.metrics
         
-      Dataset: https://www.kaggle.com/datasets/parisrohan/credit-score-classification
-   
-   
-   4. Data cleaning
+      - sklearn.tree and sklearn.ensemble
+
+
+
+
+                           
+   5. Data cleaning
      
     - Dropped unnecessary columns
       
@@ -24,9 +49,28 @@
     
     - Converted Categorical Data into labelled number: Good (0), Poor (1), and Standard (2)
 
+    - Rounding Float columns upto 2 decimals.
+
+    - Dropped unwanted outliers 
+
+    - Standarized and Normalised data
+
     
+
     
-   6. Training and Evaluating Models 
+   5.  Best Features selected ( Co-relation Heatmap)
+
+      
+
+   7.  Data Splitting
+   8. 
+
+      
+   9.  Model Selections
+
+   10.  Model Training
+      
+      
    
    
 

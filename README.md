@@ -10,8 +10,7 @@ The goal of the project is to create a machine learning model which helps to ind
 2.Datasets used
 
 
-The data used in this project is a simulated dataset of individuals and their credit scores, which I use to train and evaluate several different machine learning models.
-exploratory data analysis to gain insights into the data and understand the relationships between the various features and the credit score. I then use this understanding to preprocess the data and prepare it for modeling.
+The data used in this project is a simulated dataset of individuals and their credit scores.
 
     [Dataset: Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classificationD)
 

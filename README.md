@@ -38,7 +38,7 @@ The data used in this project is a simulated dataset of individuals and their cr
 
 
                            
-   5. Data cleaning
+   4. Data cleaning
      
     - Dropped unnecessary columns
       
@@ -59,29 +59,27 @@ The data used in this project is a simulated dataset of individuals and their cr
     
 
     
-   5.  Best Features selected ( Co-relation Heatmap)
+   5. Splitting Data into Training and Validation
+      <img width="740" alt="Screenshot 2024-06-13 at 12 12 03 AM"               src="https://github.com/spoudel977/project4/assets/105176210/c7f137ba-a4f8-4c57-81da-46de0ed8ea28">
 
-      
 
-   7.  Data Splitting
-   8. 
 
-      
-   9.  Model Selections
 
-   10.  Model Training
-      
-      
+6. Model Selections
+
    
-   
-
-# Overview of the Model Analysis 
     *Summary of all model accuracies: *
+   
     Logistic Regression: 64.71%
+   
     Decision Tree: 71.41%
+   
     Random Forest: 72.68%
+   
     Gradient Boosting: 71.38%
+   
     Support Vector Machine: 70.45%
+   
     Neural Network: 70.25%
     
     

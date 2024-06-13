@@ -48,11 +48,15 @@ The data used in this project is a simulated dataset of individuals and their cr
     
     - Converted Dataypes into int, float, obj
     
-    - Converted Categorical Data into labelled number: Good (0), Poor (1), and Standard (2)
+    - Converted Categorical Data into labelled number: Good (0), Poor (1), and Standard (2) using Encoding
 
     - Rounding Float columns upto 2 decimals.
 
+    - Balanced Data using oversampling
+
     - Dropped unwanted outliers 
+
+    - Plotted boxplots to check skewness of data
 
     - Standarized and Normalised data
 

@@ -34,6 +34,7 @@ The data used in this project is a simulated dataset of individuals and their cr
     - Plotted boxplots to check skewness of data
     - Standarized and Normalised data
 
+
 6. Model explorations and selection
    - Neural Network
    - Random Forest
@@ -42,24 +43,24 @@ The data used in this project is a simulated dataset of individuals and their cr
    - Gradient Boosting
  
 6.1 Neural Network
+    Achieved accuracy of 75%. When used Batch Normalization for optimization accuracy rate decreased to 72.25%. Further optimization not progressed. Further optimisation is suggested.
+
+6.2 Random Forest
+
+In validation Set results, achieved overall accuracy of 91%. Class 0 (Poor) had high precision rate of 99.0% confirming model prediction is almost always correct. Very high recall of 99.9% suggesting the model successfully identifies nearly all instances of 'Poor Credit Scores".
+CLass 1 (Standard) had precision rate of 91% indicating most of the predictions for standards were correct. High recall of 97%  tells model correctly indentifying majority of 'Standard' instances. 
+Class 2 (Good) had precision rate of 98.1%  indicating model accurracy as high however recall of 75%  tells missing a number of 'Good' Credit Score instances. While plotted confusion matrix, a higher number of data incorrectly classified in 'poor' and 'standard'. 
 
 
-    
-    
-    
-    
-    
-    
-    *Summary of all model accuracies: *https://github.com/spoudel977/project4/assets/94360634/73cd5654-1362-4759-bbc6-6037d4e9e808)
-    - Used Batch Normalization for optimization however no improvement. Optimised accuracy 72.25%
-         
 
+
+    Summary of all model accuracies:
     Logistic Regression: 64.71%
     Decision Tree: 71.41%
     Random Forest: 72.68%
     Gradient Boosting: 71.38%
     Support Vector Machine: 70.45%
-    Neural Network: 70.25%
+    Neural Network: 72.25%
     
     
 # Optimization of the Model 

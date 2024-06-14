@@ -57,6 +57,9 @@ Synthetic Minority Over-sampling Technique (SMOT) applied to solve problem of im
 
 To summarise the model is consistenly performing well across all metrics both before and after the optimization indicating that the initial model was already well-tuned because of rigorous data exploration and cleaning and SMOT provided a minor enhancement in balancing the class predictions.
 
+Feature importances was visualized as below and identified topfluences: Outstanding Debt, Interest Rate, Payment of Minimum Amount, Credit Mix. Lower influencers also noted as Payment Behaviour in different categories. Team understands further optimization requires to address issue of incorrect classification of good score.
+![output](https://github.com/spoudel977/project4/assets/94360634/53ca331e-9a47-4bcf-b485-805aee328402)
+
 
     Summary of all model accuracies:
     Logistic Regression: 64.71%

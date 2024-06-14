@@ -53,6 +53,9 @@ Class 2 (Good) had precision rate of 98.1%  indicating model accurracy as high h
 
 ![ConfusionMatrix1](https://github.com/spoudel977/project4/assets/94360634/4127951b-ec8c-4efb-a2f6-ace57a2fdf7e)
 
+Synthetic Minority Over-sampling Technique (SMOT) applied to solve problem of imbalanced dateset by generating synthetic samples for the minority class. Model retrained and tested. Identified SMOTE technique did not significantly alter the model's performance as there were minimal changes (slight improvement in recall for Class 2) in accuracy, precision, recall and F1 score.
+
+To summarise the model is consistenly performing well across all metrics both before and after the optimization indicating that the initial model was already well-tuned because of rigorous data exploration and cleaning and SMOT provided a minor enhancement in balancing the class predictions.
 
 
     Summary of all model accuracies:

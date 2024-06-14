@@ -3,7 +3,7 @@
 ![360_F_258871009_f5net6t178mMF1nekdg2AS2vuOUhpDjL](https://github.com/spoudel977/project4/assets/105176210/a2e7f5cc-ee19-417c-8d97-a09e9b321da0)
 
 # Overview of the Project 
-1.Purpose   
+1. Purpose   
 
 The goal of the project is to create a machine learning model which helps to indicate which applicants would be eligible for a loan according to their credit score. The credit score is tested against 13 features that has been provided for each applicant. Our model will determine the applicant's credit worthiness for a loan based on the applicant's financial overview ( features): Age, Annual_Income, Monthly_Inhand_Salary, Num_Bank_Accounts, Num_Credit_Card, Interest_Rate, Num_of_Loan, Delay_from_due_date, Num_of_Delayed_Payment, Changed_Credit_Limit, Credit_Mix,.. The project is implemented in a Jupyter Notebook, using the Python programming language and several popular machine learning libraries such as NumPy, Pandas, Matplotlib, Seaborn, sklearn.preprocessing, sklearn.tree and sklearn.ensemble. 
 
@@ -22,7 +22,7 @@ The data used in this project is a simulated dataset of individuals and their cr
       - TensorFlow
 
                      
-4. Data cleaning
+4. Data Exploration, Cleaning and Visualisations
     - Dropped unnecessary columns
     - Checked for missing values: df = df.insull().sum()
     - Dropped Missing Values: df.dropna()
@@ -39,7 +39,8 @@ The data used in this project is a simulated dataset of individuals and their cr
       <img width="740" alt="Screenshot 2024-06-13 at 12 12 03 AM"               src="https://github.com/spoudel977/project4/assets/105176210/c7f137ba-a4f8-4c57-81da-46de0ed8ea28">
 
 
-6. Model Selections
+6. Model Considerations and Selections
+   
     *Summary of all model accuracies: *
     Logistic Regression: 64.71%
     Decision Tree: 71.41%

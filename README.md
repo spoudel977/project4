@@ -51,6 +51,7 @@ In validation Set results, achieved overall accuracy of 91%. Class 0 (Poor) had 
 CLass 1 (Standard) had precision rate of 91% indicating most of the predictions for standards were correct. High recall of 97%  tells model correctly indentifying majority of 'Standard' instances. 
 Class 2 (Good) had precision rate of 98.1%  indicating model accurracy as high however recall of 75%  tells missing a number of 'Good' Credit Score instances. While plotted confusion matrix, a higher number of data incorrectly classified in 'poor' and 'standard'. 
 
+![ConfusionMatrix1](https://github.com/spoudel977/project4/assets/94360634/4127951b-ec8c-4efb-a2f6-ace57a2fdf7e)
 
 
 

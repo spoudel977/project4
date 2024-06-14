@@ -34,14 +34,19 @@ The data used in this project is a simulated dataset of individuals and their cr
     - Plotted boxplots to check skewness of data
     - Standarized and Normalised data
 
-    
-5. Splitting Data into Training and Validation
-      <img width="740" alt="Screenshot 2024-06-13 at 12 12 03 AM"               src="https://github.com/spoudel977/project4/assets/105176210/c7f137ba-a4f8-4c57-81da-46de0ed8ea28">
+6. Model explorations and selection
+   - Neural Network
+   - Random Forest
+   - Logistic Regression
+   - Decision Tree
+   - Gradient Boosting
+ 
+6.1 Neural Network
 
+    *Summary of all model accuracies: *![Screenshot 2024-06-14 at 9 50 40 AM](https://github.com/spoudel977/project4/assets/94360634/73cd5654-1362-4759-bbc6-6037d4e9e808)
+    - Used Batch Normalization for optimization however no improvement. Optimised accuracy 72.25%
+         
 
-6. Model Considerations and Selections
-   
-    *Summary of all model accuracies: *
     Logistic Regression: 64.71%
     Decision Tree: 71.41%
     Random Forest: 72.68%

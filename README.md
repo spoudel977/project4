@@ -43,7 +43,14 @@ The data used in this project is a simulated dataset of individuals and their cr
  
 6.1 Neural Network
 
-    *Summary of all model accuracies: *![Screenshot 2024-06-14 at 9 50 40 AM](https://github.com/spoudel977/project4/assets/94360634/73cd5654-1362-4759-bbc6-6037d4e9e808)
+
+    
+    
+    
+    
+    
+    
+    *Summary of all model accuracies: *https://github.com/spoudel977/project4/assets/94360634/73cd5654-1362-4759-bbc6-6037d4e9e808)
     - Used Batch Normalization for optimization however no improvement. Optimised accuracy 72.25%
          
 

@@ -7,83 +7,45 @@
 
 The goal of the project is to create a machine learning model which helps to indicate which applicants would be eligible for a loan according to their credit score. The credit score is tested against 13 features that has been provided for each applicant. Our model will determine the applicant's credit worthiness for a loan based on the applicant's financial overview ( features): Age, Annual_Income, Monthly_Inhand_Salary, Num_Bank_Accounts, Num_Credit_Card, Interest_Rate, Num_of_Loan, Delay_from_due_date, Num_of_Delayed_Payment, Changed_Credit_Limit, Credit_Mix,.. The project is implemented in a Jupyter Notebook, using the Python programming language and several popular machine learning libraries such as NumPy, Pandas, Matplotlib, Seaborn, sklearn.preprocessing, sklearn.tree and sklearn.ensemble. 
 
-2.Datasets used
-
-
+2. Datasets used
 The data used in this project is a simulated dataset of individuals and their credit scores.
-
-    [Dataset: Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classificationD)
-
-      - train.csv
+ [Dataset: Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classificationD) - train.csv
 
       
-
-   3. Libraries Used 
-
+3. Libraries Used 
       - pandas
-      
-      - numpy
-      
-      - seaborn
-      
-      - matplotlib.pyplot
-      
-      - sklearn.preprocessing
-      
-      - sklearn.metrics
-        
-      - sklearn.tree and sklearn.ensemble
+      - NumPy
+      - Matplotlib
+      - Seaborn
+      - Scikit-learn
+      - Imbalanced-learn
+      - TensorFlow
 
-
-
-
-                           
-   4. Data cleaning
-     
+                     
+4. Data cleaning
     - Dropped unnecessary columns
-      
     - Checked for missing values: df = df.insull().sum()
-    
     - Dropped Missing Values: df.dropna()
-    
     - Converted Dataypes into int, float, obj
-    
     - Converted Categorical Data into labelled number: Good (0), Poor (1), and Standard (2) using Encoding
-
     - Rounding Float columns upto 2 decimals.
-
     - Balanced Data using oversampling
-
     - Dropped unwanted outliers 
-
     - Plotted boxplots to check skewness of data
-
     - Standarized and Normalised data
 
     
-
-    
-   5. Splitting Data into Training and Validation
+5. Splitting Data into Training and Validation
       <img width="740" alt="Screenshot 2024-06-13 at 12 12 03 AM"               src="https://github.com/spoudel977/project4/assets/105176210/c7f137ba-a4f8-4c57-81da-46de0ed8ea28">
 
 
-
-
 6. Model Selections
-
-   
     *Summary of all model accuracies: *
-   
     Logistic Regression: 64.71%
-   
     Decision Tree: 71.41%
-   
     Random Forest: 72.68%
-   
     Gradient Boosting: 71.38%
-   
     Support Vector Machine: 70.45%
-   
     Neural Network: 70.25%
     
     
